@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+Online Blood Bank Management System
+Project Overview
+The Online Blood Bank Management System is a web-based platform that connects blood donors, recipients, and blood banks. It facilitates the search, availability, and management of blood donations, ensuring that users can quickly find nearby blood banks with the required blood type availability.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The system is designed to assist patients, hospitals, and emergency responders by providing real-time information about blood stock levels at different registered blood banks in a given city.
 
-## Available Scripts
+Features
+User Features
+✅ Search Blood Banks – Users can enter their city name to find all registered blood banks nearby.
+✅ Check Blood Stock Availability – Users can view the available blood stock for different blood types at each blood bank.
+✅ Contact Blood Banks – Users get contact details of each blood bank for further communication.
+✅ Location-based Search – The system provides a list of blood banks based on proximity to the user.
 
-In the project directory, you can run:
+Admin/Blood Bank Features
+✅ Blood Bank Registration – Blood banks can register and manage their details.
+✅ Update Blood Stock – Blood banks can update their stock availability in real time.
+✅ Manage Requests – Blood banks can view and process blood donation and request applications.
 
-### `yarn start`
+Technologies Used
+Frontend:
+HTML, CSS, JavaScript
+Angular (for UI components and routing)
+Backend:
+Java, Spring MVC, Hibernate (for API and business logic)
+RESTful APIs (to interact with the frontend)
+Database:
+MySQL (to store user data, blood bank details, and blood stock levels)
+Other Tools:
+Postman (for API testing)
+GitHub (for version control)
+Role in the Project
+As a Full Stack Developer, my key contributions were:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Developed the search functionality that allows users to find blood banks in their city.
+Integrated backend APIs to fetch and display real-time blood stock data.
+Implemented a responsive UI for better user experience.
+Debugged and troubleshot errors, ensuring smooth application functionality.
+Collaborated with the team to optimize database queries for fast search results.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+How It Works?
+1️⃣ User searches for a blood bank by entering the city name.
+2️⃣ The system fetches and displays all blood banks registered in that city.
+3️⃣ Users can view stock availability and choose the nearest blood bank.
+4️⃣ Blood banks can update stock details to maintain real-time accuracy.
+5️⃣ Users can contact the blood bank directly for urgent requests.
 
-### `yarn test`
+Future Enhancements
+🔹 Google Maps API Integration – Display the exact location of blood banks on a map.
+🔹 Donor Registration & Appointment System – Allow users to register as donors and schedule blood donations.
+🔹 Automated Alerts & Notifications – Notify users when a required blood type is available nearby.
+🔹 AI-based Predictive Analysis – Predict blood demand in different areas based on historical data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Conclusion
+The Online Blood Bank Management System is a life-saving platform that simplifies the process of finding and managing blood donations. By leveraging Java Spring MVC, MySQL, and Angular, we have developed an efficient, scalable, and user-friendly system. This project not only improved our technical skills but also contributed to a social cause, making it one of the most impactful projects we have worked on.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
